@@ -39,6 +39,7 @@ a,button{
     color:white;  
     font-size: clamp(.8rem,1.1vw,1.5rem);
 }
+
 footer a, footer p{
     font-size: clamp(.9rem,1.2vw,1.5rem);
 }
@@ -132,8 +133,13 @@ nav a{
     background:linear-gradient(to left, hsl(198, 60%, 50%),hsl(176, 68%, 64%));
     border:none;
     cursor: pointer;
+    transition: transform 250ms ease;
 }
 
+#section2 a:hover{
+    background: hsl(198, 60%, 50%);
+    transform: translateY(-5px);
+}
 /* ================================================= SECTION 3 ============================================= */
 #section3 .wrapper{
     width:75%;
@@ -268,6 +274,11 @@ nav a{
     background:linear-gradient(to left, hsl(198, 60%, 50%),hsl(176, 68%, 64%));
     border:none;
     cursor: pointer;
+    transition: transform 250ms ease;
+}
+#section6 button:hover{
+    background: hsl(198, 60%, 50%);
+    transform: translateY(-5px);
 }
 /* ============================================== FOOTER ================================================ */
 footer{
