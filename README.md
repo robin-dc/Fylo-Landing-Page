@@ -16,4 +16,4 @@ Trying out Grid Layout.
 
 ## Author
 
-- Frontend Mentor - [@robin-dc](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@robin-dc](https://www.frontendmentor.io/profile/@robin-dc)
